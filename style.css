@@ -1,0 +1,177 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("wallpaper_love.jpg");
+    background-repeat: no-repeat;
+    /* background-color: grey; */
+     background-size: 100%; 
+    /* position: relative; */
+    /* background-color: red; */
+}
+/* .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+}
+#music{
+    display: block;
+} */
+/* nav{
+   width: 100%;
+   background-color: rgb(0, 0, 0);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   height: 52px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    transition: all .3s ease-in;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:white;
+    
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+} */
+
+/* .header:hover{ 
+    background-blend-mode: multiply;
+    
+ }  */
+.header:hover>.linear{
+    /* background-position: center; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .6s ease-in;
+    background-color: black;
+    opacity: .7;
+    /* backdrop-filter: blur(10px); */
+    /* position: absolute;
+    bottom: 0; */
+}
+.info{
+    color:white;
+    text-shadow: 0 0 15px white;
+    display: none;
+    /* position: absolute;
+    height: 100%;
+    top: 50%; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.info h1{
+    text-align: center;
+    font-size: 80px;
+    text-transform: capitalize;
+}
+.info p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.7;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header:hover>.linear>.info{
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 235, 235);
+    overflow: hidden;
+}
+
+@media (max-width:900px) {
+    .header{
+        background-size: 100% 100%;
+    }
+}
+@media (max-width:1100px) {
+    .header{
+        background-size: 100% 100%;
+    }
+}
+/* @media (width:665px) {
+    .header{
+        background-image: url("./Nuevo\ proyecto_1.jpg");
+    }
+} */
+@media (max-width:530px) {
+    .header{
+        background-image: url("./Nuevo\ proyecto.jpg");
+    }
+}
+@media (max-width:393px) {
+    .header{
+        background-image:url("./Nuevo\ proyecto.jpg");
+    }
+}
+/* #seccion_main{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section_one>h2{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes text {
+    0%{
+        color:red
+    }
+    50%{
+        color:green
+    }
+    100%{
+        color:blue
+    }
+}
+.info_article{
+    width: 30%;
+    height: 60%;
+    text-align: center;
+    background-color: rgb(207, 207, 207);
+    font-family: sans-serif;
+    padding: 20px;
+    transition: all .3s ease-in-out;
+    
+}
+.info_article:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+.info_article>h3{
+    font-size: 30px;
+    margin-bottom:10px;
+}
+.info_article>p{
+    line-height: 20px;
+    font-size: 15px;
+}
+.info_article>img{
+    width: 100%;
+    margin-top: 10%;
+    object-fit: cover;
+} */
